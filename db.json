@@ -1,0 +1,29 @@
+{
+  "Ficheiros": [
+    {
+      "name": "nsajk",
+      "": "aMSN",
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "titulo": "Contra o Brasil",
+      "autor": "Diogo Mainardi",
+      "isbn": "587924",
+      "classificacao": "7",
+      "cdu": "Plural",
+      "editor": "Alfredo de Jesus",
+      "descricao": "Livro nice",
+      "conhecimento": "Romance",
+      "publicador": "Nao sei",
+      "publicacao": "Na livraria",
+      "lingua": "Portugues",
+      "id": 4
+    }
+  ]
+}

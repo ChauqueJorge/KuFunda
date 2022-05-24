@@ -1,0 +1,16 @@
+.btn{
+    background-color: #019E90;
+    color: white;
+    padding: 0.7em 1.2em;
+    text-decoration:none;
+    transition: .5s;
+    cursor:pointer;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 164, 147);;
+}
+.btn:hover{
+    color:#019E90;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid rgba(0, 164, 147);
+}

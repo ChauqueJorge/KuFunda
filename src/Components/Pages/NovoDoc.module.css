@@ -1,0 +1,11 @@
+.novodoc_container{
+    width: 450px;
+    margin: 0 auto;
+    padding: 3em;
+}
+.novodoc_container h1{
+    margin-bottom: 0.5em;
+}
+.novodoc_container p{
+    color:black;
+}
