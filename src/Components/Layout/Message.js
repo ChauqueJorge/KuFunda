@@ -4,10 +4,7 @@ import {useState, useEffect} from 'react'
 function Message({type, msg}){
     const[visivel, setVisivel]= useState(false)
     useEffect(()=>{
-        if(!img){
-            setVisivel(false)
-            return
-        }
+       
         setVisivel(true)
         const timer= setTimeout(()=>{
             setVisivel(false)

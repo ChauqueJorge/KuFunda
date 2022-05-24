@@ -19,33 +19,23 @@ function Ficheiros(){
             headers:{
                 'Content-Type': 'application/json',
             },
-        }).then(resp=>resp.json())
-        .then(data=>{
+        }).then((resp)=>resp.json())
+        .then((data)=>{
             setProjects(data)
         })
         .catch((err)=>console.log(err))
     }, [])
-
+ 
    
     return(
         <div className={styles.project_container}>
             <div className={styles.title_container}>
             <h1>Meus Ficheiros</h1>
-            <LinkButton to="/Documentos" text="Adicionar livro"/>
+            <LinkButton to="/Documento" text="Adicionar livro"/>
             </div>
             
             {message && <Message type="sucesso" msg={message}/>}
-            <Container className="start">
-                {projects.length > 0 &&
-                projects.map((project)=>(
-                    <ProjectCard
-                    id={project.id} 
-                    titulo={project.titulo}
-                    autor={project.autor}
-                    descricao={project.descricao}
-                    lingua={project.lingua}/>
-                ))}
-            </Container>
+            
         </div>
     )
 }

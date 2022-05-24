@@ -3,9 +3,10 @@ import FormularioLivro from './FormularioLivro.js'
 import styles from './NovoDoc.module.css'
 function  Documento(){
     const history=useHistory()
+   
     function createPost(project){
         fetch("http://localhost:5000/ficheiros",{
-            method: 'POST',
+            method:'POST',
             headers:{
                 'Content-type': 'application/json',
             },
@@ -13,7 +14,7 @@ function  Documento(){
         }).then((resp)=>resp.json()).then((data)=>{
             console.log(data)
             //Redireccionar
-            history.push('/Home', {message:'Sucesso de novo'})
+            history.push('/Home.js', {message:'Sucesso de novo'})
         }).catch(err=>console.log(err))    
     }
     return(
