@@ -1,7 +1,7 @@
 import { useHistory } from 'react-router-dom'
 import FormularioLivro from './FormularioLivro.js'
 import styles from './NovoDoc.module.css'
-function  Documento(){
+function  NovoDoc(){
     const history=useHistory()
    
     function createPost(project){
@@ -27,4 +27,4 @@ function  Documento(){
         </div>
     )
     }
-    export default Documento
+    export default NovoDoc

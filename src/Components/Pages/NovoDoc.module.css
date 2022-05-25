@@ -5,6 +5,7 @@
 }
 .novodoc_container h1{
     margin-bottom: 0.5em;
+    padding: 25px, 25px, 25px, 25px;
 }
 .novodoc_container p{
     color:black;

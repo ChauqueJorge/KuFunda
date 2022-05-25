@@ -4,7 +4,7 @@ import {useState, useEffect} from 'react'
 function Message({type, msg}){
     const[visivel, setVisivel]= useState(false)
     useEffect(()=>{
-       
+        
         setVisivel(true)
         const timer= setTimeout(()=>{
             setVisivel(false)

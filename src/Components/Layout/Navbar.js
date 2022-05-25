@@ -12,7 +12,7 @@ function Navbar(){
                         <Link to="/">Home</Link>
                     </li>
                     <li className={styles.item}>
-                        <Link to="/Documento">Adicionar </Link>
+                        <Link to="/NovoDoc">Adicionar </Link>
                     </li>
                     <li className={styles.item}>
                         <Link to="/Ficheiros">Meus Documentos</Link>

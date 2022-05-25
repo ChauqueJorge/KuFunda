@@ -1,6 +1,6 @@
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Home from './Components/Pages/Home.js'
-import Documento from './Components/Pages/Documento.js'
+import Documento from './Components/Pages/NovoDoc.js'
 import Ver from './Components/Pages/Ficheiros.js'
 
 import Container from './Components/Layout/Container.js';
@@ -18,7 +18,7 @@ function App() {
         <Route path="/Ficheiros">
           <Ver/>
         </Route>
-        <Route path="/documento">
+        <Route path="/NovoDoc">
           <Documento/>
         </Route>
         </Container>

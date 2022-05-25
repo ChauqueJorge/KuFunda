@@ -2,7 +2,7 @@
 import { useState} from "react"
 import Input from "../Formularios/Input.js"
 import SubmitButton from "../Formularios/SubmitButton.js"
-
+import styles from "./FormularioLivro.module.css"
  
 function FormularioLivro({handleSubmit, projectData}){
     const [project,setProject]= useState(projectData || {})
@@ -25,7 +25,7 @@ function FormularioLivro({handleSubmit, projectData}){
     return(
         <div>
             <form onSubmit={submit}>
-            <Input type="text" text="Titulo do livro" name="titulo" placeholder="Insira o titulo do livro" handleOnChange={handleChange} value={project.titulo}/>
+            <Input className={styles.input} type="text" text="Titulo do livro" name="titulo" placeholder="Insira o titulo do livro" handleOnChange={handleChange} value={project.titulo}/>
             <Input type="text" text="Nome do Autor" name="autor" placeholder="Insira o nome do autor " handleOnChange={handleChange} value={project.autor}/>
             <Input type="text" text="Nr de ISBN" name="isbn" placeholder="Insira o nr do ISBN" handleOnChange={handleChange} value={project.isbn}/>
             <Input type="text" text="Nr de classificação" name="classificacao" placeholder="Insira o numero de classifiçação" handleOnChange={handleChange} value={project.classificacao}/>
@@ -36,7 +36,7 @@ function FormularioLivro({handleSubmit, projectData}){
             <Input type="text" text="Publicador"name="publicador" placeholder="Insira o publicador" handleOnChange={handleChange} value={project.publicador}/>
             <Input type="text"  text="Local de Publicação" name="publicacao" placeholder="Insira o local de publicação" handleOnChange={handleChange} value={project.local}/>
             <Input type="text"  text="Lingua principal do texto" name="lingua" placeholder="Insira a lingua do texto" handleOnChange={handleChange} value={project.lingua}/>
-            <Input  type="file" text="Ficheiro"  name="arquivo" value={project.arquivo}/>
+            <Input  type="file" text="Ficheiro"  name="arquivo" handleOnChange={handleChangeFicheiro} value={project.arquivo}/>
         <div>
             <SubmitButton text="Adicionar livro"/>
         </div>
