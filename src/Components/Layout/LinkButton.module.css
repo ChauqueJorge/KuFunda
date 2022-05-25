@@ -1,11 +1,11 @@
 .btn{
     
-color: white;
+color: black;
 text-align: center;
 text-decoration: none;
 border-radius: 8px;
 vertical-align: middle;
-padding: 15px 25px 1px 25px;
+padding: 15px 25px 15px 25px;
 transition: .5s;
 border: 2px solid rgba(0, 164, 147);
 

@@ -12,7 +12,7 @@ function Ficheiross(){
         message=location.state.message
     }
     useEffect(()=>{
-        fetch('http://localhost/5000/ficheiro',{
+        fetch('http://localhost/5000/ficheiros',{
             method:'GET',
             headers:{
                 'Content-Type': 'application/json',

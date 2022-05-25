@@ -5,6 +5,7 @@ function  Documento(){
     const history=useHistory()
    
     function createPost(project){
+        
         fetch("http://localhost:5000/ficheiros",{
             method:'POST',
             headers:{
@@ -14,8 +15,8 @@ function  Documento(){
         }).then((resp)=>resp.json()).then((data)=>{
             console.log(data)
             //Redireccionar
-            history.push('/Home.js', {message:'Sucesso de novo'})
-        }).catch(err=>console.log(err))    
+            history.push('/ficheiros', {message:'Criado com sucesso'})
+        })   
     }
     return(
         

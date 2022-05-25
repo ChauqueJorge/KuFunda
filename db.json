@@ -1,17 +1,6 @@
 {
   "Ficheiros": [
     {
-      "name": "nsajk",
-      "": "aMSN",
-      "id": 1
-    },
-    {
-      "id": 2
-    },
-    {
-      "id": 3
-    },
-    {
       "titulo": "Contra o Brasil",
       "autor": "Diogo Mainardi",
       "isbn": "587924",
@@ -24,6 +13,15 @@
       "publicacao": "Na livraria",
       "lingua": "Portugues",
       "id": 4
+    },
+    {
+      "titulo": "na,asndnsd",
+      "id": 5
+    },
+    {
+      "titulo": "Livro",
+      "autor": "Jorge",
+      "id": 6
     }
   ]
 }
