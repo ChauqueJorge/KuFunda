@@ -15,20 +15,18 @@
       "id": 4
     },
     {
-      "titulo": "na,asndnsd",
+      "titulo": "A Janela",
+      "autor": "Albeto Zucule",
+      "isbn": "5582045",
+      "classificacao": "18",
+      "cdu": "Plural",
+      "editor": "Jonas Alfredo",
+      "descricao": "Um livro abencoado",
+      "conhecimento": "Ciencias",
+      "publicador": "Plural Editores",
+      "publicacao": "Matola",
+      "lingua": "Chines",
       "id": 5
-    },
-    {
-      "titulo": "Livro",
-      "autor": "Jorge",
-      "id": 6
-    },
-    {
-      "lingua": "Portugues",
-      "id": 7
-    },
-    {
-      "id": 8
     }
   ]
 }

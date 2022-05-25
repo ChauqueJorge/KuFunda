@@ -8,7 +8,7 @@ return(
         <img src={kufunda} alt="kufunda"/>
         <h1>Bem-vindo ao <span>KuFunda</span>!</h1>
         <p>Nesta plataforma pode adicionar todos os ficheiros!</p>
-        <LinkButton to="/Documento" text="Adicionar documento"/>
+        <LinkButton to="/NovoDoc" text="Adicionar documento"/>
         
     </section>
 )

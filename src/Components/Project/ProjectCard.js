@@ -1,7 +1,8 @@
 import styles from './ProjectCard.module.css'
 import {BsPencil, BsFillTrashFill} from 'react-icons/bs'
-function ProjectCard({id, titulo, autor, auto, descricao, lingua}){
-    return(
+function ProjectCard({ titulo, autor, descricao, lingua}){
+    
+   return(
         <div>
            <h4>{titulo}</h4>
             <p>
